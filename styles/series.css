@@ -301,7 +301,7 @@ transform: translateY(101%);
 transform: translateY(0);
 }
 .know-more{
-background-color: #fd0404;
+background-color: #59A928;
 color: #fff;
 font: 1.1rem;
 font-weight: bold;
@@ -434,6 +434,9 @@ footer > .interface{
       top: .8rem;
       width: 50px;
       height: 0.3rem;
+    }
+    .search-box{
+      justify-content: center;
     }
   }
   /* The Overlay (background) */

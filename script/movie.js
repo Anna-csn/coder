@@ -62,7 +62,7 @@ function showBox(data) {
                 
                 <h3>Sinopse</h3><br>
                 ${overview} <br>
-                <button class="know-more" id="${id}">Veja Mais</button>
+                <button class="know-more" id="${id}">Saiba Mais</button>
             </div>
         `
 
