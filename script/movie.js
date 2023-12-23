@@ -79,7 +79,7 @@ const overlayContent = document.getElementById('overlay-content')
 /* Open when someone clicks on the span element */
 function openNav(box) {
     let id = box.id;
-    fetch(BASE_URL +'/movie/'+id +'/videos'+ API_KEY ).then(res => res.json())
+    fetch(BASE_URL +'/movie/'+id +'/videos?'+ API_KEY ).then(res => res.json())
     .then(videoData => {
         console.log(videoData);
         if(videoData){
